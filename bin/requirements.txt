@@ -1,0 +1,9 @@
+requests
+json
+http
+glob
+filesplit
+datetime
+configparser
+bs4
+argparse

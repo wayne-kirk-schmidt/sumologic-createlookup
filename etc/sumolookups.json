@@ -1,0 +1,24 @@
+{
+    "description": "Example Sumo Logic Lookup File",
+    "fields": [
+        {   
+            "fieldName": "EventName",
+            "fieldType": "string"
+        },
+        {
+            "fieldName": "EventAddr",
+            "fieldType": "string"
+        },
+        {
+            "fieldName": "EventType",
+            "fieldType": "string"
+        }
+    ],
+    "primaryKeys": [
+        "EventName"
+    ],
+    "ttl": 5000,
+    "sizeLimitAction": "DeleteOldData",
+    "name": "hash",
+    "parentFolderId": "REPLACEME"
+}
